@@ -1,0 +1,18 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile=backend/pyproject.toml"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "poetry run pylint",
+    "sonarlint.disableTelemetry": true,
+    "sonarlint.output.showVerboseLogs": true,
+    "python.testing.pytestArgs": [
+        "backend/tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
